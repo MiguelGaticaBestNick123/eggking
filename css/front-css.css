@@ -6,7 +6,8 @@
 
 body {
 
-    background: black;
+    /* background: black; */
+    background-size: 900px;
 }
 
 h1 {
