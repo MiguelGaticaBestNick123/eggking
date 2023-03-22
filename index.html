@@ -5,7 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DIOS EGG KING</title>
+    <link rel="stylesheet" href="css/index-css.css">
     <!-- Latest compiled and minified CSS -->
+    <style>
+        /* Remove the navbar's default margin-bottom and rounded borders */ 
+        .navbar {
+          margin-bottom: 0;
+          border-radius: 0;
+        }
+        
+        /* Add a gray background color and some padding to the footer */
+        footer {
+          background-color: rgb(27, 26, 26);
+          padding: 25px;
+        }
+        
+      .carousel-inner img {
+          width: 50%; /* Set width to 100% */
+          margin: auto;
+          min-height:200px;
+          
+      }
+    
+      /* Hide the carousel text when the screen is less than 600 pixels wide */
+      @media (max-width: 300px) {
+        .carousel-caption {
+          display: none; 
+        }
+      }
+      </style>
+    </head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 
 <!-- jQuery library -->
@@ -16,14 +46,92 @@
     
 </head>
 <body>
-    <div class="row">
-        <div class="size-sm=4"> <H1>SEXOOOOO</H1></div>
-        <div class="size-sm=4"><h1>SEXORICO</h1></div>
-        <div class="size-sm=4"><h1>HUEVITO REY K RICO PAPI</h1></div>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>                        
+            </button>
+            <a class="navbar-brand" href="#"><img src="img/4771348.png" height="35" width="35"></a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Conciertos</a></li>
+              <li><a href="#">Biografia</a></li>
+              <li><a href="#">Galeria</a></li>
+              <li><a href="#">Discografia</a></li>
+            
+          </div>
+        </div>
+      </nav>
+      
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+          </ol>
+      
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img src="img/HuevitoRey.webp" height="3">
+              <div class="carousel-caption">
+                <h3>Biografia</h3>
+                <p>Dios rey todopoderoso</p>
+              </div>      
+            </div>
+      
+            <div class="item">
+              <img id="imgcarrusel" src="img/huevito1 (1).jpg" height="3">
+              <div class="carousel-caption">
+                <h3></h3>
+                <p></p>
+              </div>      
+            </div>
 
-
-
-    </div>
+               
+          </div>
+      
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Siguiente</span>
+          </a>
+      </div>
+        
+      <div class="container text-center" id="containercentro">    
+        <h3>¿Mejor músico o mejor persona? Descubre quién es Dios!</h3><br>
+        <div class="row">
+          <div class="col-sm-4">
+            <img src="img/huevito-rey.gif" class="img-responsive" style="width:100%" alt="Image">
+            <p>Huevito Dios cantando</p>
+          </div>
+          <div class="col-sm-4"> 
+            <img src="img/HospitableMetallicChafer-max-1mb.gif" class="img-responsive" style="width:100%" alt="Image">
+            <p>Huevito perdonando nuestros pecados</p>    
+          </div>
+          <div class="col-sm-4">
+            <div class="well">
+             <p>Imagínate así con las piernas abiertas en tu cama, y entro yo a la pieza, imagina, cierra los ojos, cierralos fantasiemos, cierra los ojos un momento, cierra los ojos, estay en tu pieza y yo entro así "hola ¿como estay?¿tay sola?" "si, estoy sola tío mauri, estamos solos" "ah, que rico" y yo te digo "ah que soi' buena onda, oye ¿me dejay darte unos besitos adentro de los muslos?" "ay pero tío Mauri...</p>
+            </div>
+            <div class="well">
+             <p>Canales de televisión. ¡Vengan todos los reporteros a chuparme el pico! igual que el Mega. Maricones culiaos. ¡Cómanme el moco!. Maricones. Chúpenme la raja con caca...</p>
+            </div>
+          </div>
+        </div>
+      </div><br>
+      
+      <footer class="container-fluid text-center">
+        <p id="footer">Redes sociales del Dios huevito rey: </p>
+        <i class="bi bi-instagram"></i>
+      </footer>
     
 </body>
 </html>
