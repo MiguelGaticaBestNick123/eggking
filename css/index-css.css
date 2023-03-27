@@ -9,3 +9,6 @@ body {
 #imgcarrusel{
     height: 300px; width: auto;
 }
+*{
+    text-light;
+}
