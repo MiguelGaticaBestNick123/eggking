@@ -7,26 +7,16 @@
 body {
 
     /* background: black; */
-    background-size: 900px;
+    background-size: 1440px;
+
 }
 
 h1 {
     font-size: 90px;
-    background: linear-gradient(#1497be, #1c2aec);
-    color: transparent;
-    background-clip: text;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    animation: text 5s linear infinite;
-}
 
-@keyframes text {
-    0% {
-        filter: hue-rotate(0deg);
-    }
-    100% {
-        filter: hue-rotate(360deg);
-    }
+    color: white;
+
+
 }
 .info{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -39,4 +29,12 @@ h1 {
     color: white;
     font-size: 300;
 
+}
+
+.galeriafont{
+    color: black;
+}
+#sexologia {
+    font-size: 90px;
+    color: black;
 }
